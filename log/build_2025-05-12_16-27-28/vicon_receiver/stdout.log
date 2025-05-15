@@ -1,0 +1,35 @@
+[  2%] Built target vicon_receiver__cpp
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_cpp[0m
+[ 11%] Built target vicon_receiver__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_generator_c[0m
+[ 20%] Built target vicon_receiver__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c[0m
+[ 29%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_c[0m
+[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_c[0m
+[ 47%] Built target vicon_receiver__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_cpp[0m
+[ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_cpp[0m
+[ 64%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[ 64%] Built target vicon_receiver
+[ 64%] Built target ament_cmake_python_symlink_vicon_receiver
+running egg_info
+writing vicon_receiver.egg-info/PKG-INFO
+writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+writing top-level names to vicon_receiver.egg-info/top_level.txt
+reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[ 64%] Built target ament_cmake_python_build_vicon_receiver_egg
+[ 67%] Built target vicon_receiver__py
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_generator_py[0m
+[ 73%] Built target vicon_receiver__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 79%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_c__pyext[0m
+[ 85%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_c__pyext[0m
+[ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target vicon_client[0m
+[ 94%] [32m[1mLinking CXX executable vicon_client[0m

@@ -1,0 +1,7 @@
+/usr/bin/ld: warning: libboost_chrono-mt-x64.so.1.75.0, needed by /usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/libViconDataStreamSDK_CPP.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libboost_thread-mt-x64.so.1.75.0, needed by /usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/libViconDataStreamSDK_CPP.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/libViconDataStreamSDK_CPP.so: undefined reference to `boost::chrono::steady_clock::now()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:170: vicon_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/vicon_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.000600] (vicon_receiver) JobQueued: {'identifier': 'vicon_receiver', 'dependencies': OrderedDict()}
+[0.000665] (vicon_receiver) JobStarted: {'identifier': 'vicon_receiver'}
+[0.018241] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'cmake'}
+[0.019612] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'build'}
+[0.020966] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/surafel/vicon_ws/build/vicon_receiver', '--', '-j1', '-l1'], 'cwd': '/home/surafel/vicon_ws/build/vicon_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'surafel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/surafel'), ('OLDPWD', '/home/surafel/vicon_ws/src/ros2-vicon-receiver'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'surafel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'surafel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/surafel:@/tmp/.ICE-unix/1359,unix/surafel:/tmp/.ICE-unix/1359'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a2ec01a_8447_453f_bcd8_b827ba351695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TIWL62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/surafel/vicon_ws/build/vicon_receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099996] (-) TimerEvent: {}
+[0.147047] (vicon_receiver) StdoutLine: {'line': b'[  2%] Built target vicon_receiver__cpp\n'}
+[0.190064] (vicon_receiver) StdoutLine: {'line': b'[ 11%] Built target vicon_receiver__rosidl_typesupport_cpp\n'}
+[0.200901] (-) TimerEvent: {}
+[0.234429] (vicon_receiver) StdoutLine: {'line': b'[ 20%] Built target vicon_receiver__rosidl_generator_c\n'}
+[0.276959] (vicon_receiver) StdoutLine: {'line': b'[ 29%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c\n'}
+[0.301084] (-) TimerEvent: {}
+[0.319183] (vicon_receiver) StdoutLine: {'line': b'[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c\n'}
+[0.372903] (vicon_receiver) StdoutLine: {'line': b'[ 47%] Built target vicon_receiver__rosidl_typesupport_c\n'}
+[0.401308] (-) TimerEvent: {}
+[0.415235] (vicon_receiver) StdoutLine: {'line': b'[ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.466948] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp\n'}
+[0.502010] (-) TimerEvent: {}
+[0.504094] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver\n'}
+[0.562011] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target ament_cmake_python_symlink_vicon_receiver\n'}
+[0.603015] (-) TimerEvent: {}
+[0.703923] (-) TimerEvent: {}
+[0.805615] (-) TimerEvent: {}
+[0.908038] (-) TimerEvent: {}
+[1.009577] (-) TimerEvent: {}
+[1.110587] (-) TimerEvent: {}
+[1.112850] (vicon_receiver) StdoutLine: {'line': b'running egg_info\n'}
+[1.115327] (vicon_receiver) StdoutLine: {'line': b'writing vicon_receiver.egg-info/PKG-INFO\n'}
+[1.116931] (vicon_receiver) StdoutLine: {'line': b'writing dependency_links to vicon_receiver.egg-info/dependency_links.txt\n'}
+[1.117139] (vicon_receiver) StdoutLine: {'line': b'writing top-level names to vicon_receiver.egg-info/top_level.txt\n'}
+[1.120847] (vicon_receiver) StdoutLine: {'line': b"reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'\n"}
+[1.122485] (vicon_receiver) StdoutLine: {'line': b"writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'\n"}
+[1.178885] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target ament_cmake_python_build_vicon_receiver_egg\n'}
+[1.210761] (-) TimerEvent: {}
+[1.216210] (vicon_receiver) StdoutLine: {'line': b'[ 67%] Built target vicon_receiver__py\n'}
+[1.261892] (vicon_receiver) StdoutLine: {'line': b'[ 73%] Built target vicon_receiver__rosidl_generator_py\n'}
+[1.306079] (vicon_receiver) StdoutLine: {'line': b'[ 79%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.311111] (-) TimerEvent: {}
+[1.354168] (vicon_receiver) StdoutLine: {'line': b'[ 85%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext\n'}
+[1.400191] (vicon_receiver) StdoutLine: {'line': b'[ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext\n'}
+[1.411893] (-) TimerEvent: {}
+[1.467896] (vicon_receiver) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o\x1b[0m\n'}
+[1.512133] (-) TimerEvent: {}
+[1.614187] (-) TimerEvent: {}
+[1.714933] (-) TimerEvent: {}
+[1.817168] (-) TimerEvent: {}
+[1.917859] (-) TimerEvent: {}
+[2.018714] (-) TimerEvent: {}
+[2.121295] (-) TimerEvent: {}
+[2.222302] (-) TimerEvent: {}
+[2.323042] (-) TimerEvent: {}
+[2.425196] (-) TimerEvent: {}
+[2.526106] (-) TimerEvent: {}
+[2.628105] (-) TimerEvent: {}
+[2.728865] (-) TimerEvent: {}
+[2.830925] (-) TimerEvent: {}
+[2.931721] (-) TimerEvent: {}
+[3.033159] (-) TimerEvent: {}
+[3.135180] (-) TimerEvent: {}
+[3.236916] (-) TimerEvent: {}
+[3.337618] (-) TimerEvent: {}
+[3.439188] (-) TimerEvent: {}
+[3.539963] (-) TimerEvent: {}
+[3.642182] (-) TimerEvent: {}
+[3.744944] (-) TimerEvent: {}
+[3.848971] (-) TimerEvent: {}
+[3.951971] (-) TimerEvent: {}
+[4.055166] (-) TimerEvent: {}
+[4.157174] (-) TimerEvent: {}
+[4.259332] (-) TimerEvent: {}
+[4.362918] (-) TimerEvent: {}
+[4.463676] (-) TimerEvent: {}
+[4.565429] (-) TimerEvent: {}
+[4.667141] (-) TimerEvent: {}
+[4.768927] (-) TimerEvent: {}
+[4.869677] (-) TimerEvent: {}
+[4.970411] (-) TimerEvent: {}
+[5.072715] (-) TimerEvent: {}
+[5.173460] (-) TimerEvent: {}
+[5.277498] (-) TimerEvent: {}
+[5.380868] (-) TimerEvent: {}
+[5.483479] (-) TimerEvent: {}
+[5.586073] (-) TimerEvent: {}
+[5.689906] (-) TimerEvent: {}
+[5.793511] (-) TimerEvent: {}
+[5.895374] (-) TimerEvent: {}
+[5.997959] (-) TimerEvent: {}
+[6.101909] (-) TimerEvent: {}
+[6.205935] (-) TimerEvent: {}
+[6.308095] (-) TimerEvent: {}
+[6.411234] (-) TimerEvent: {}
+[6.512324] (-) TimerEvent: {}
+[6.613100] (-) TimerEvent: {}
+[6.715644] (-) TimerEvent: {}
+[6.816444] (-) TimerEvent: {}
+[6.918728] (-) TimerEvent: {}
+[7.021291] (-) TimerEvent: {}
+[7.122954] (-) TimerEvent: {}
+[7.224273] (-) TimerEvent: {}
+[7.326917] (-) TimerEvent: {}
+[7.430118] (-) TimerEvent: {}
+[7.531209] (-) TimerEvent: {}
+[7.633380] (-) TimerEvent: {}
+[7.734368] (-) TimerEvent: {}
+[7.836128] (-) TimerEvent: {}
+[7.936863] (-) TimerEvent: {}
+[8.039956] (-) TimerEvent: {}
+[8.140598] (-) TimerEvent: {}
+[8.241457] (-) TimerEvent: {}
+[8.343194] (-) TimerEvent: {}
+[8.445089] (-) TimerEvent: {}
+[8.545812] (-) TimerEvent: {}
+[8.646420] (-) TimerEvent: {}
+[8.748853] (-) TimerEvent: {}
+[8.851196] (-) TimerEvent: {}
+[8.953868] (-) TimerEvent: {}
+[9.059061] (-) TimerEvent: {}
+[9.159866] (-) TimerEvent: {}
+[9.260638] (-) TimerEvent: {}
+[9.363137] (-) TimerEvent: {}
+[9.463960] (-) TimerEvent: {}
+[9.566261] (-) TimerEvent: {}
+[9.667937] (-) TimerEvent: {}
+[9.768628] (-) TimerEvent: {}
+[9.870163] (-) TimerEvent: {}
+[9.972089] (-) TimerEvent: {}
+[10.076008] (-) TimerEvent: {}
+[10.177264] (-) TimerEvent: {}
+[10.280952] (-) TimerEvent: {}
+[10.381490] (-) TimerEvent: {}
+[10.482964] (-) TimerEvent: {}
+[10.583666] (-) TimerEvent: {}
+[10.686488] (-) TimerEvent: {}
+[10.787579] (-) TimerEvent: {}
+[10.889153] (-) TimerEvent: {}
+[10.991168] (-) TimerEvent: {}
+[11.091930] (-) TimerEvent: {}
+[11.192645] (-) TimerEvent: {}
+[11.294141] (-) TimerEvent: {}
+[11.396107] (-) TimerEvent: {}
+[11.496904] (-) TimerEvent: {}
+[11.597633] (-) TimerEvent: {}
+[11.699157] (-) TimerEvent: {}
+[11.801187] (-) TimerEvent: {}
+[11.901901] (-) TimerEvent: {}
+[12.004198] (-) TimerEvent: {}
+[12.105046] (-) TimerEvent: {}
+[12.206079] (-) TimerEvent: {}
+[12.310108] (-) TimerEvent: {}
+[12.411294] (-) TimerEvent: {}
+[12.512040] (-) TimerEvent: {}
+[12.613958] (-) TimerEvent: {}
+[12.718918] (-) TimerEvent: {}
+[12.821126] (-) TimerEvent: {}
+[12.924125] (-) TimerEvent: {}
+[13.026688] (-) TimerEvent: {}
+[13.130951] (-) TimerEvent: {}
+[13.235945] (-) TimerEvent: {}
+[13.337057] (-) TimerEvent: {}
+[13.438957] (-) TimerEvent: {}
+[13.539694] (-) TimerEvent: {}
+[13.640507] (-) TimerEvent: {}
+[13.742181] (-) TimerEvent: {}
+[13.845359] (-) TimerEvent: {}
+[13.946362] (-) TimerEvent: {}
+[14.047124] (-) TimerEvent: {}
+[14.148817] (-) TimerEvent: {}
+[14.253111] (-) TimerEvent: {}
+[14.353796] (-) TimerEvent: {}
+[14.456129] (-) TimerEvent: {}
+[14.558101] (-) TimerEvent: {}
+[14.659227] (-) TimerEvent: {}
+[14.760940] (-) TimerEvent: {}
+[14.862937] (-) TimerEvent: {}
+[14.965132] (-) TimerEvent: {}
+[15.065939] (-) TimerEvent: {}
+[15.170067] (-) TimerEvent: {}
+[15.276016] (-) TimerEvent: {}
+[15.377917] (-) TimerEvent: {}
+[15.482921] (-) TimerEvent: {}
+[15.585325] (-) TimerEvent: {}
+[15.688304] (-) TimerEvent: {}
+[15.789109] (-) TimerEvent: {}
+[15.891820] (-) TimerEvent: {}
+[15.992612] (-) TimerEvent: {}
+[16.094356] (-) TimerEvent: {}
+[16.196176] (-) TimerEvent: {}
+[16.296945] (-) TimerEvent: {}
+[16.397918] (-) TimerEvent: {}
+[16.500148] (-) TimerEvent: {}
+[16.600938] (-) TimerEvent: {}
+[16.701634] (-) TimerEvent: {}
+[16.803157] (-) TimerEvent: {}
+[16.903920] (-) TimerEvent: {}
+[17.006181] (-) TimerEvent: {}
+[17.106959] (-) TimerEvent: {}
+[17.207623] (-) TimerEvent: {}
+[17.309138] (-) TimerEvent: {}
+[17.412683] (-) TimerEvent: {}
+[17.513491] (-) TimerEvent: {}
+[17.615129] (-) TimerEvent: {}
+[17.717063] (-) TimerEvent: {}
+[17.817710] (-) TimerEvent: {}
+[17.918585] (-) TimerEvent: {}
+[18.020184] (-) TimerEvent: {}
+[18.122937] (-) TimerEvent: {}
+[18.225310] (-) TimerEvent: {}
+[18.328323] (-) TimerEvent: {}
+[18.432059] (-) TimerEvent: {}
+[18.533064] (-) TimerEvent: {}
+[18.634466] (-) TimerEvent: {}
+[18.736204] (-) TimerEvent: {}
+[18.836924] (-) TimerEvent: {}
+[18.938848] (-) TimerEvent: {}
+[19.041256] (-) TimerEvent: {}
+[19.141919] (-) TimerEvent: {}
+[19.221225] (vicon_receiver) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable vicon_client\x1b[0m\n'}
+[19.242083] (-) TimerEvent: {}
+[19.343662] (-) TimerEvent: {}
+[19.448931] (-) TimerEvent: {}
+[19.551116] (-) TimerEvent: {}
+[19.653137] (-) TimerEvent: {}
+[19.753867] (-) TimerEvent: {}
+[19.855128] (-) TimerEvent: {}
+[19.902472] (vicon_receiver) StdoutLine: {'line': b'[100%] Built target vicon_client\n'}
+[19.927581] (vicon_receiver) CommandEnded: {'returncode': 0}
+[19.933256] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'install'}
+[19.951589] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/surafel/vicon_ws/build/vicon_receiver'], 'cwd': '/home/surafel/vicon_ws/build/vicon_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'surafel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/surafel'), ('OLDPWD', '/home/surafel/vicon_ws/src/ros2-vicon-receiver'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'surafel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'surafel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/surafel:@/tmp/.ICE-unix/1359,unix/surafel:/tmp/.ICE-unix/1359'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a2ec01a_8447_453f_bcd8_b827ba351695'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TIWL62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/surafel/vicon_ws/build/vicon_receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.955897] (-) TimerEvent: {}
+[19.973056] (vicon_receiver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.974199] (vicon_receiver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.975894] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/rosidl_interfaces/vicon_receiver\n'}
+[19.976326] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__functions.h\n'}
+[19.976960] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.h\n'}
+[19.977528] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__type_support.h\n'}
+[19.978129] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.h\n'}
+[19.978674] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.981743] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/library_path.sh\n'}
+[19.982011] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/library_path.dsv\n'}
+[19.982270] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[19.985068] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.985265] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[19.985460] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.988204] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__builder.hpp\n'}
+[19.988422] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.hpp\n'}
+[19.989017] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__traits.hpp\n'}
+[19.989281] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__type_support.hpp\n'}
+[19.990140] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.hpp\n'}
+[19.991292] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.991608] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.992222] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.993159] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.994146] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.sh\n'}
+[19.994840] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.dsv\n'}
+[19.996293] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/PKG-INFO\n'}
+[19.999850] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/SOURCES.txt\n'}
+[20.000101] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/dependency_links.txt\n'}
+[20.001433] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/top_level.txt\n'}
+[20.002546] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/__init__.py\n'}
+[20.003386] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c\n'}
+[20.004559] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.005384] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.006155] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/libvicon_receiver__rosidl_generator_py.so\n'}
+[20.006566] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/__init__.py\n'}
+[20.007721] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position.py\n'}
+[20.008130] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position_s.c\n'}
+[20.009268] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.010400] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.010754] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.012386] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.013191] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.014152] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.015653] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/msg/Position.idl\n'}
+[20.016516] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/msg/Position.msg\n'}
+[20.016843] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/lib/vicon_receiver/vicon_client\n'}
+[20.017919] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver//launch/client.launch.py\n'}
+[20.019125] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/package_run_dependencies/vicon_receiver\n'}
+[20.019891] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/parent_prefix_path/vicon_receiver\n'}
+[20.020158] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.sh\n'}
+[20.022566] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.dsv\n'}
+[20.022829] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/path.sh\n'}
+[20.023010] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/path.dsv\n'}
+[20.023168] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.bash\n'}
+[20.024525] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.sh\n'}
+[20.024708] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.zsh\n'}
+[20.025039] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.dsv\n'}
+[20.025580] (vicon_receiver) StdoutLine: {'line': b'-- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/package.dsv\n'}
+[20.045633] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/packages/vicon_receiver\n'}
+[20.046484] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake-extras.cmake\n'}
+[20.047172] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.047872] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.048914] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.049566] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.050245] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.051978] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.052245] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig.cmake\n'}
+[20.052871] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig-version.cmake\n'}
+[20.053899] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/package.xml\n'}
+[20.054359] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so\n'}
+[20.055259] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so\n'}
+[20.056854] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so\n'}
+[20.057031] (-) TimerEvent: {}
+[20.057474] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so\n'}
+[20.058366] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.059862] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so\n'}
+[20.060230] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so\n'}
+[20.125028] (vicon_receiver) StdoutLine: {'line': b"Listing '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver'...\n"}
+[20.125386] (vicon_receiver) StdoutLine: {'line': b"Listing '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg'...\n"}
+[20.133877] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_py.so\n'}
+[20.134079] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport.cmake\n'}
+[20.134240] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.135167] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.135687] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.136029] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.136449] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.137006] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport.cmake\n'}
+[20.137414] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.137942] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cppExport.cmake\n'}
+[20.138452] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.139096] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.139475] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.139841] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.140422] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport.cmake\n'}
+[20.140929] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.141166] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport.cmake\n'}
+[20.141864] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.145984] (vicon_receiver) CommandEnded: {'returncode': 0}
+[20.158503] (-) TimerEvent: {}
+[20.196297] (vicon_receiver) JobEnded: {'identifier': 'vicon_receiver', 'rc': 0}
+[20.199066] (-) EventReactorShutdown: {}

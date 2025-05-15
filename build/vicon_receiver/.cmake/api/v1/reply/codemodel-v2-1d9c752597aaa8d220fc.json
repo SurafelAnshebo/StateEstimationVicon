@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fe81d990a23183870079.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "vicon_receiver__py",
+					"jsonFile" : "directory-vicon_receiver__py-916fb457cc372b150320.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/surafel/vicon_ws/build/vicon_receiver/vicon_receiver__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vicon_receiver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vicon_receiver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vicon_receiver_egg-ec8bc1ce49b5d34037cd.json",
+					"name" : "ament_cmake_python_build_vicon_receiver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vicon_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vicon_receiver-c4abe5d98077754e13c6.json",
+					"name" : "ament_cmake_python_symlink_vicon_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-45cf1b351113742beea0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_client-fcdee4a88b382a5fc011.json",
+					"name" : "vicon_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver-c4b3a03c016e1de29011.json",
+					"name" : "vicon_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__cpp-d9d7b9a1ca4dffdc17c2.json",
+					"name" : "vicon_receiver__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vicon_receiver__py::@bfa293fd87d7d1ae59e5",
+					"jsonFile" : "target-vicon_receiver__py-75f70e3bb243f28c9313.json",
+					"name" : "vicon_receiver__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_generator_c-04baa0c9499d19f51c46.json",
+					"name" : "vicon_receiver__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_generator_py-c6b5022f534e887d5bff.json",
+					"name" : "vicon_receiver__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_c-76fcc9c97f1d009d0418.json",
+					"name" : "vicon_receiver__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_c__pyext-7c38e23fc88c32084e19.json",
+					"name" : "vicon_receiver__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_cpp-0a80b3bd2940608fa1c2.json",
+					"name" : "vicon_receiver__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_fastrtps_c-684acf28ae85f154f189.json",
+					"name" : "vicon_receiver__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_fastrtps_c__pyext-b900a838ffc62dc35536.json",
+					"name" : "vicon_receiver__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_fastrtps_cpp-67fe70e8532552715f18.json",
+					"name" : "vicon_receiver__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_introspection_c-40aee5763ecab596dbe2.json",
+					"name" : "vicon_receiver__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_introspection_c__pyext-df96e085b5f1b04d893b.json",
+					"name" : "vicon_receiver__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver__rosidl_typesupport_introspection_cpp-d724f8ba975bccd26491.json",
+					"name" : "vicon_receiver__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vicon_receiver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vicon_receiver_uninstall-da0cd02876845b8d31b5.json",
+					"name" : "vicon_receiver_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/surafel/vicon_ws/build/vicon_receiver",
+		"source" : "/home/surafel/vicon_ws/src/ros2-vicon-receiver/vicon_receiver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

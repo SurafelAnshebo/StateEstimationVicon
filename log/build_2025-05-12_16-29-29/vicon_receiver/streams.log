@@ -1,0 +1,135 @@
+[0.024s] Invoking command in '/home/surafel/vicon_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1
+[0.145s] [  2%] Built target vicon_receiver__cpp
+[0.200s] [ 11%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.252s] [ 20%] Built target vicon_receiver__rosidl_generator_c
+[0.309s] [ 29%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.356s] [ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.441s] [ 47%] Built target vicon_receiver__rosidl_typesupport_c
+[0.538s] [ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.632s] [ 64%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.720s] [ 64%] Built target vicon_receiver
+[0.847s] [ 64%] Built target ament_cmake_python_symlink_vicon_receiver
+[1.517s] running egg_info
+[1.520s] writing vicon_receiver.egg-info/PKG-INFO
+[1.521s] writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+[1.522s] writing top-level names to vicon_receiver.egg-info/top_level.txt
+[1.530s] reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[1.531s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[1.663s] [ 64%] Built target ament_cmake_python_build_vicon_receiver_egg
+[1.767s] [ 67%] Built target vicon_receiver__py
+[1.865s] [ 73%] Built target vicon_receiver__rosidl_generator_py
+[1.965s] [ 79%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[2.039s] [ 85%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[2.096s] [ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[2.171s] [ 94%] [32m[1mLinking CXX executable vicon_client[0m
+[2.738s] [100%] Built target vicon_client
+[2.761s] Invoked command in '/home/surafel/vicon_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1
+[2.796s] Invoking command in '/home/surafel/vicon_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/surafel/vicon_ws/build/vicon_receiver
+[2.814s] -- Install configuration: ""
+[2.815s] -- Execute custom install script
+[2.816s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/rosidl_interfaces/vicon_receiver
+[2.834s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__functions.h
+[2.864s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.h
+[2.910s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__type_support.h
+[2.934s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.h
+[2.952s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_generator_c__visibility_control.h
+[2.972s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/library_path.sh
+[2.993s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/library_path.dsv
+[3.012s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[3.030s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.046s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_c.h
+[3.063s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.084s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__builder.hpp
+[3.103s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.hpp
+[3.119s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__traits.hpp
+[3.136s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__type_support.hpp
+[3.152s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.hpp
+[3.169s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.192s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[3.209s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.231s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[3.248s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.sh
+[3.265s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.dsv
+[3.286s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/PKG-INFO
+[3.307s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/SOURCES.txt
+[3.324s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/dependency_links.txt
+[3.340s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/top_level.txt
+[3.359s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/__init__.py
+[3.381s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c
+[3.400s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.417s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c
+[3.434s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/libvicon_receiver__rosidl_generator_py.so
+[3.451s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/__init__.py
+[3.468s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position.py
+[3.489s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position_s.c
+[3.511s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.530s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.548s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.565s] -- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.566s] -- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.567s] -- Up-to-date symlink: /home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.568s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/msg/Position.idl
+[3.589s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/msg/Position.msg
+[3.610s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/lib/vicon_receiver/vicon_client
+[3.629s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver//launch/client.launch.py
+[3.645s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/package_run_dependencies/vicon_receiver
+[3.663s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/parent_prefix_path/vicon_receiver
+[3.683s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.sh
+[3.705s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.dsv
+[3.724s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/path.sh
+[3.741s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/environment/path.dsv
+[3.759s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.bash
+[3.779s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.sh
+[3.796s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.zsh
+[3.815s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/local_setup.dsv
+[3.833s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/package.dsv
+[3.849s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/ament_index/resource_index/packages/vicon_receiver
+[3.866s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake-extras.cmake
+[3.886s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.907s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.923s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_targets-extras.cmake
+[3.940s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.957s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.977s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.996s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig.cmake
+[4.018s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig-version.cmake
+[4.037s] -- Symlinking: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/package.xml
+[4.057s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so
+[4.059s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so" to ""
+[4.060s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so
+[4.061s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so" to ""
+[4.062s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so
+[4.062s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so" to ""
+[4.063s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so
+[4.064s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so" to ""
+[4.065s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so
+[4.066s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.067s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so
+[4.069s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so" to ""
+[4.069s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so
+[4.070s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so" to ""
+[4.177s] Listing '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver'...
+[4.178s] Compiling '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/__init__.py'...
+[4.179s] Listing '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg'...
+[4.179s] Compiling '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/__init__.py'...
+[4.179s] Compiling '/home/surafel/vicon_ws/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position.py'...
+[4.189s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_py.so
+[4.190s] -- Set runtime path of "/home/surafel/vicon_ws/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_py.so" to ""
+[4.191s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport.cmake
+[4.191s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport-noconfig.cmake
+[4.192s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport.cmake
+[4.192s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.193s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport.cmake
+[4.193s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.194s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport.cmake
+[4.195s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport-noconfig.cmake
+[4.195s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cppExport.cmake
+[4.196s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.197s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.199s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport.cmake
+[4.199s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.200s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport.cmake
+[4.201s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport-noconfig.cmake
+[4.201s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport.cmake
+[4.202s] -- Installing: /home/surafel/vicon_ws/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport-noconfig.cmake
+[4.207s] Invoked command in '/home/surafel/vicon_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/surafel/vicon_ws/build/vicon_receiver

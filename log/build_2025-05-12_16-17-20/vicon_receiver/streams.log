@@ -1,0 +1,132 @@
+[0.021s] Invoking command in '/home/surafel/vicon_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/surafel/vicon_ws/src/ros2-vicon-receiver/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/surafel/vicon_ws/install/vicon_receiver
+[0.710s] -- The C compiler identification is GNU 11.4.0
+[0.844s] -- The CXX compiler identification is GNU 11.4.0
+[0.859s] -- Detecting C compiler ABI info
+[1.054s] -- Detecting C compiler ABI info - done
+[1.072s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.073s] -- Detecting C compile features
+[1.074s] -- Detecting C compile features - done
+[1.080s] -- Detecting CXX compiler ABI info
+[1.247s] -- Detecting CXX compiler ABI info - done
+[1.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.266s] -- Detecting CXX compile features
+[1.267s] -- Detecting CXX compile features - done
+[1.272s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.609s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.765s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.819s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.836s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.987s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.089s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.096s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.291s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.379s] -- Looking for pthread.h
+[2.566s] -- Looking for pthread.h - found
+[2.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.725s] -- Found Threads: TRUE  
+[2.849s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.364s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.260s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.263s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.320s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.320s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.320s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.321s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.360s] -- Found PythonExtra: .so  
+[4.434s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.434s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.434s]   rosidl_target_interfaces()
+[4.436s] Call Stack (most recent call first):
+[4.436s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[4.436s] 
+[4.436s] [0m
+[4.436s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.438s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.440s]   rosidl_target_interfaces()
+[4.440s] Call Stack (most recent call first):
+[4.440s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[4.440s] 
+[4.440s] [0m
+[4.441s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.441s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.441s]   rosidl_target_interfaces()
+[4.441s] Call Stack (most recent call first):
+[4.441s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[4.441s] 
+[4.443s] [0m
+[4.460s] -- Configuring done
+[4.562s] -- Generating done
+[4.588s] -- Build files have been written to: /home/surafel/vicon_ws/build/vicon_receiver
+[4.615s] Invoked command in '/home/surafel/vicon_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/surafel/vicon_ws/src/ros2-vicon-receiver/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/surafel/vicon_ws/install/vicon_receiver
+[4.618s] Invoking command in '/home/surafel/vicon_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1
+[4.725s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.419s] [  2%] Built target vicon_receiver__cpp
+[5.438s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.073s] [  8%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vicon_receiver/msg/position__type_support.cpp.o[0m
+[6.757s] [ 11%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_cpp.so[0m
+[6.840s] [ 11%] Built target vicon_receiver__rosidl_typesupport_cpp
+[6.857s] [ 14%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.557s] [ 17%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_generator_c.dir/rosidl_generator_c/vicon_receiver/msg/detail/position__functions.c.o[0m
+[7.784s] [ 20%] [32m[1mLinking C shared library libvicon_receiver__rosidl_generator_c.so[0m
+[7.857s] [ 20%] Built target vicon_receiver__rosidl_generator_c
+[7.874s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.572s] [ 26%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vicon_receiver/msg/detail/position__type_support_c.cpp.o[0m
+[9.469s] [ 29%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_c.so[0m
+[9.624s] [ 29%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[9.647s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.294s] [ 35%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vicon_receiver/msg/detail/position__type_support.c.o[0m
+[10.364s] [ 38%] [32m[1mLinking C shared library libvicon_receiver__rosidl_typesupport_introspection_c.so[0m
+[10.422s] [ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[10.444s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.070s] [ 44%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_c.dir/rosidl_typesupport_c/vicon_receiver/msg/position__type_support.cpp.o[0m
+[11.131s] [ 47%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_c.so[0m
+[11.212s] [ 47%] Built target vicon_receiver__rosidl_typesupport_c
+[11.233s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.918s] [ 52%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vicon_receiver/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[13.112s] [ 55%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.269s] [ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[13.293s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.947s] [ 61%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vicon_receiver/msg/detail/position__type_support.cpp.o[0m
+[14.940s] [ 64%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_introspection_cpp.so[0m
+[15.082s] [ 64%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[15.126s] [ 64%] Built target vicon_receiver
+[15.179s] [ 64%] Built target ament_cmake_python_symlink_vicon_receiver
+[15.730s] running egg_info
+[15.733s] creating vicon_receiver.egg-info
+[15.733s] writing vicon_receiver.egg-info/PKG-INFO
+[15.734s] writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+[15.735s] writing top-level names to vicon_receiver.egg-info/top_level.txt
+[15.736s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[15.739s] reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[15.741s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[15.790s] [ 64%] Built target ament_cmake_python_build_vicon_receiver_egg
+[15.834s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.859s] [ 67%] Built target vicon_receiver__py
+[16.896s] [ 70%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_generator_py.dir/rosidl_generator_py/vicon_receiver/msg/_position_s.c.o[0m
+[17.153s] [ 73%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/libvicon_receiver__rosidl_generator_py.so[0m
+[17.230s] [ 73%] Built target vicon_receiver__rosidl_generator_py
+[17.271s] [ 76%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.547s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.637s] [ 79%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[17.679s] [ 82%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.911s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.983s] [ 85%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[18.031s] [ 88%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c.o[0m
+[18.232s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.300s] [ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[18.348s] [ 94%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m
+[32.788s] [ 97%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[50.112s] [100%] [32m[1mLinking CXX executable vicon_client[0m
+[50.169s] /usr/bin/ld: cannot find -lViconDataStreamSDK_CPP: No such file or directory
+[50.284s] collect2: error: ld returned 1 exit status
+[50.287s] gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:170: vicon_client] Error 1
+[50.288s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/vicon_client.dir/all] Error 2
+[50.291s] gmake: *** [Makefile:146: all] Error 2
+[50.297s] Invoked command in '/home/surafel/vicon_ws/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1

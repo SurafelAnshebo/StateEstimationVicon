@@ -1,0 +1,2 @@
+Invoking command in '/home/surafel/vicon_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1
+Invoked command in '/home/surafel/vicon_ws/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/surafel/vicon_ws/build/vicon_receiver -- -j1 -l1
