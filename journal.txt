@@ -1,0 +1,13 @@
+Why do I occasionally see duplicate markers in the 3D Workspace after I calibrate?
+
+Typically, this is due to subsets of cameras being well calibrated together and those subsets not agreeing enough with each other. 
+This can cause reconstructions to be generated from each subset, quite close in position to each other.
+Try to capture during the wand wave, plenty of frames where all cameras see the wand at the same time if possible. 
+A good strategy is to wave the wand across the floor with LEDs facing vertically upwards.
+
+If not all cameras, try to ensure that cameras on two or three adjacent walls or two opposing walls can collect wand frames at the same time.
+
+Try to avoid only waving the wand close to the edge of the volume where only 2 or 3 cameras may see the wand at the same time.
+
+Before you begin camera calibration, ensure that: Cameras have fully warmed up to a stable operating temperature. Vicon recommends a minimum 30–60 minute warm-up period.
+
