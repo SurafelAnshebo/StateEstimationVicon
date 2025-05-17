@@ -11,3 +11,6 @@ Try to avoid only waving the wand close to the edge of the volume where only 2 o
 
 Before you begin camera calibration, ensure that: Cameras have fully warmed up to a stable operating temperature. Vicon recommends a minimum 30–60 minute warm-up period.
 
+*Important* Link
+
+https://gtae.gitbook.io/ifl/training
