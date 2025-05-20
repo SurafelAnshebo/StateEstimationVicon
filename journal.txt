@@ -14,3 +14,20 @@ Before you begin camera calibration, ensure that: Cameras have fully warmed up t
 *Important* Link
 
 https://gtae.gitbook.io/ifl/training
+
+
+#############################################################################################################################################################
+
+Parameters I changed 
+
+EKF2_EV_CTRL 15 > 8 (Adam said 3 but it is 8 in the documentation)
+EKF2_EV_DELAY 0.0 > 0.1
+EKF2_EV_NOISE_MD 1 (left it as it is)
+EKF2_GPS_CHECK 245 (I didnt change this)
+
+EKF2_HGT_REF gps > vision
+SYS_HAS_GPS 1 > 0
+EKF2_GPS_CHECK 245 > 0 .......... maxpdop, max vertical position error, max vertical velocity discrepancy (these were unchecked the rest are all checked)
+
+
+#############################################################################################################################################################
